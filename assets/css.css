@@ -1,0 +1,201 @@
+
+
+
+
+
+body {
+
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 600;ont-weigh
+  margin: 30px;
+  font-family: 'Montserrat',sans-serif;
+  background: #fff;
+  font-size:15px;
+  line-height:2;
+  color:#000;
+    }
+
+.intro {
+
+  text-transform:lowercase ;
+   font-style:normal;
+font-weight: 300;ont-weigh
+  width: 1000px;
+  height: 50%;
+}
+.intro {
+
+  text-transform:none ;
+   font-style:normal;
+font-weight: 300%;ont-weigh
+  width: 1000px;
+  height: 100vh;
+}
+
+.assets {
+  float: left;
+  width:50%;
+
+border: 3px double green
+margin:100% 0 0 0;
+padding: 10px
+
+}
+
+
+
+.title_inner {
+
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 600;ont-weigh
+  font-size: 15px;
+  font-weight:20z 0px;
+   text-transform: uppercase;
+   line-height: 10  px;
+
+}
+.intro_title {
+    text-decoration:underline;
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 60px;ont-weigh
+  font-size: 20px;
+  font-weight:500;
+   text-transform: uppercase;
+   line-height : 40px;
+   }
+
+.intro_inner{
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 600;ont-weighv
+  width: 100%;
+  max-width: 500px;
+  margin:2px auto 0 ;
+}
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+<!DOCTYPE html>
+.container {
+  text-decoration:underline;
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 600;ont-weigh
+  width: 100%;
+  max-width:1200px;
+  margin: 60px auto 0 ;
+}
+
+
+
+
+
+.container {
+
+  width:100%;
+  max-width:1200px;
+  margin: 5px auto;
+}
+
+
+
+
+
+/*header*/
+.header {
+  text-decoration:underline;
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 600;ont-weigh
+
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 1000;
+}
+
+.header_inner {
+
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
+
+.header_logo {
+
+  text-decoration:underline;
+  text-transform: capitalize;
+   font-style: italic;
+font-weight: 600px;
+   align="right"
+  width:100%;
+  max-width:100px;
+
+  margin: 1px;
+}
+
+
+
+
+
+
+
+*/Nav*/
+.nav {
+font-size: 100px;
+margin: 100%;
+text-transform: uppercase;
+color: #000;
+}
+
+.nav_link{
+display: inline-block;
+vertical-align: left;
+margin: 10%;
+position: relative;
+  color:#000;
+ text-decoration: none;
+ transition: color .2s linear;
+}
+.nav_link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+  background: #fe39;
+  position: absolute;
+  top: 100%
+  left:100px;
+  z-index: 1;
+}
+
+
+
+.nav_link:hover{
+  color:#fe39;
+}
+
+.nav_link:hover::after{
+  display: block;
+}
